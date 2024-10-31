@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desain Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <?php
+            include ('menu.php');
+        ?>
+        <div class="row">
+            <div class="center">
+                <div class="card">
+                    <h2>Welcome, new hero, your adventure begins now! 🏰⛏️🌌</h2>
+                    <p>Please select the menu to access our webpage</p>
+                    <img src="gambar contoh.jfif" height="400" width="1020"><br><br>
+                    <img src="gambar beranda 2.jfif" height="400" width="1020">
+                    <p>Are you ready to build, survive and explore an infinite world?
+                        Here, you're free to design grand castles, build colourful villages, or challenge monsters in the depths of the underground. 
+                        Join millions of other players creating their own worlds-in Minecraft, only your imagination limits you.</p>
+                </div>
+            </div>
+        </div>
+        <?php
+        include ('footer.php')
+        ?>
+    </body>
+</html>
