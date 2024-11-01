@@ -1,0 +1,62 @@
+        body {
+            font-family:'Montserrat', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .Acontainer {
+            display: flex;
+            flex-wrap: wrap; /* Allows wrapping to next row */
+            justify-content: space-around; /* Space around items */
+            margin: 20px;
+        }
+
+        .Acard {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 45%; /* Adjusted width to fit 2 cards in a row */
+            margin-bottom: 20px;
+        }
+
+        .Acard img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover; /* Ensures the image fits well */
+        }
+
+        .card-content {
+            padding: 15px; /* Padding inside the card */
+            text-align: center;
+        }
+
+        .card-content h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .card-content p {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .card-content a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #2b8cd1;
+            font-weight: bold;
+        }
+
+        .card-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design for Smaller Screens */
+        @media (max-width: 768px) {
+            .Acard {
+                width: 100%; /* Full width for mobile */
+            }
+        }
