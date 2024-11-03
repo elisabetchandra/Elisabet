@@ -1,0 +1,207 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0%;
+    background: #ffffff;
+    margin: 0%;
+}
+
+input [type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    resize: vertical;
+    color: #00171F;
+}
+.banner-card{
+    position:relative;
+}
+
+.banner-card img{
+    margin: 0%;
+    width: 1250px;
+    height: auto;      
+}
+
+.banner-text{
+    position: absolute;
+    top: 8%;
+    color: rgb(248, 246, 246);
+    padding:20px;
+    font-style: italic;
+    text-align: justify;
+    
+}
+
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;    
+}
+
+
+table {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 2px solid #00171F;
+    padding: 8px;
+}
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #e8f6fb;
+    color: #00171F;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input [type=submit] {
+    background-color: #e8f6fb;
+    color:#00171F;
+    padding: 12px 20x;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #ADEBFF;
+}
+
+.container {
+    border: 5px solid #00171F;
+    background-color: #e8f6fb;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #ffffff;
+    color: #00171F;
+}
+
+.header h1 {
+    font-size: 60px;
+}
+
+.logo img {
+    height: 40px; /* Sesuaikan ukuran logo */
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #ADEBFF;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;    
+    gap: 20px; /* Jarak antar menu */
+    flex-grow: 1;
+}
+
+.topnav a {
+    display: block;
+    color: #00171F;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: solid;
+    height: 70px;
+}
+
+.topnav a:hover {
+    background-color: #ADEBFF;
+    color: #00171F;
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width:  25%;
+    background-color: #00171F;
+    padding-left: 20px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+.fakeimg2 {
+    background-color: #aaa;
+    width: 30%;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding:0px;
+    margin-top:5px;
+    margin-right: 100px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ADEBFF;
+    margin-top: 20px;
+    color: #00171F;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
