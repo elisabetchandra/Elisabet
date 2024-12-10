@@ -1,0 +1,12 @@
+    <nav>
+        <div class="logo">
+            <img src="/images/tracklyn.jpeg" alt="my-avatar" width="130" height="60">
+        </div>
+        <ul>
+            <li><a href="/">Homepage</a></li>
+            <li><a href="/Operation">Operation</a></li>
+            <li><a href="/Products">Products</a></li>
+            <li><a href="/Reporting">Reporting</a></li>
+            <li><a href="/Help">Help</a></li>
+        </ul>
+    </nav>
