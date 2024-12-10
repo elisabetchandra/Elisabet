@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desain Website</title>
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
+    </head>
+    <body>
+        @include ('layouts.navbar');
+        <main>
+        <div class="card-container">
+        <div class="card">
+            <img src="warehouse1.jpg" height="100" width="200">
+            <div class="card-content">
+                <h1>Tracklyn</h1>
+                <p>Website Tracklyn hadir sebagai solusi inovatif untuk mengatasi tantangan yang kompleks dalam pengelolaan pergudangan hotel. </p>
+                <a href="https://shipper.id/blog/eng/logistic/mengatasi-tantangan-gudang-logistik-dengan-tips-efektif/" class="card-button">Read More</a>
+            </div>
+        </div>
+        <div class="card-container">
+        <div class="card">
+            <img src="warehouse2.jpg"  height="100" width="200">
+            <div class="card-content">
+                <h1>Tracklyn</h1>
+                <p>Dengan memanfaatkan teknologi terkini, Tracklyn dapat membantu hotel meningkatkan efisiensi, mengurangi biaya, dan meningkatkan kualitas layanan.</p>
+                <a href="https://shipper.id/blog/eng/logistic/mengatasi-tantangan-gudang-logistik-dengan-tips-efektif/" class="card-button">Read More</a>
+            </div> 
+        </div>
+        <div class="card-container">
+        <div class="card">
+            <img src="warehouse3.jpg"  height="100" width="200">
+            <div class="card-content">
+                <h1>Tracklyn</h1>
+                <p>Alasan kami mengangkat website ini dikarenakan Tracklyn dapat mengatasi masalah-masalah  umum yang dihadapi oleh hotel, seperti kekurangan stok, kerusakan barang, dan kesulitan dalam melacak barang.</p>
+                <a href="https://shipper.id/blog/eng/logistic/mengatasi-tantangan-gudang-logistik-dengan-tips-efektif/" class="card-button">Read More</a>
+            </div>
+        </div>
+        </div>
+        </div>
+        </main>
+        @include ('layouts.footer');
+    </body>
+</html>
+
