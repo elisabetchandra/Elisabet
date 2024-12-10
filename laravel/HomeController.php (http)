@@ -1,0 +1,41 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Models\Student;
+use App\Models\Profil;
+
+
+class HomeController extends Controller
+{
+    public function index()
+    {
+        $user = "Goei, Elisabet Chandra";
+        return view('welcome', ['user'=>$user]);
+    }
+
+    public function Operation() 
+    {
+        return view('Operation');
+    }
+    public function Products() 
+    {
+        return view('Products');
+    }
+    public function Reporting() 
+    {
+        return view('Reporting');
+    }
+    public function Help() 
+    {
+        return view('Help');
+    }
+
+
+
+
+
+    
+}
+   
