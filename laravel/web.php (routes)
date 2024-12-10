@@ -1,0 +1,14 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+
+Route::get('/', [HomeController::class, 'index']);
+
+Route::get('/Operation', [HomeController::class, 'Operation']);
+
+Route::get('/Products', [HomeController::class, 'Products']);
+
+Route::get('/Reporting', [HomeController::class, 'Reporting']);
+
+Route::get('/Help', [HomeController::class, 'Help']);
