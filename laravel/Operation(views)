@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Desain Website</title>
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
+    </head>
+    <body>
+        @include ('layouts.navbar');
+        <main>
+            <h1>About Us</h1>
+            
+            <section class="about-main">
+                <div class="about-description">
+                    <p>Tracklyn adalah proyek yang dikembangkan oleh kelompok 5 dari kelas Pemrograman Website A, 
+                        Program Studi Bisnis Digital di Institut Teknologi Kalimantan. Website manajemen pergudangan ini dirancang dengan 
+                        tampilan yang mudah dipahami dan beberapa fitur, sekaligus menjadi bagian dari pemenuhan tugas Ujian Tengah Semester kami.</p>
+                    <p>Dibangun menggunakan kombinasi bahasa HTML, CSS, dan PHP, Tracklyn hadir sebagai solusi yang memadukan kesederhanaan 
+                        dengan kehandalan dalam pengelolaan gudang.</p>
+                </div>
+                <div class="about-image">
+                    <img src="aboutus-pic.jpeg" alt="Gambar Utama About Us" height="150" width="600">
+                </div>
+            </section>
+            <br>
+            <h1>Our Team</h1>
+            <br>
+            <section class="team">
+                <div class="member">
+                    <img src="lili.jpeg" alt="Foto Pembuat 1">
+                    <h3>Goei, Elisabet Chandra</h3>
+                    <h4>NIM: 20231027</h4>
+                    <p>Bertugas sebagai pembuat 'Latar Belakang'</p>
+                    <div class="social-links">
+                        <a href="mailto:20231027@student.itk.ac.id" class="social-icon" title="Email">
+                            <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/mail-dot-ru.svg" alt="email">
+                        </a>
+                        <a href="https://www.instagram.com/elisabetchandra/" class="social-icon" title="Instagram">
+                            <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="https://www.linkedin.com/in/elisabeth-candra-71475a32a/" class="social-icon" title="LinkedIn">
+                            <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/linkedin.svg" alt="linkedin">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <img src="foto email.jpeg" alt="Foto Pembuat 2">
+                    <h3>Isnaini Nur Rachmawati</h3>
+                    <h4>NIM: 20231031</h4>
+                    <p>Bertugas sebagai pembuat 'About Us'</p>
+                    <div class="social-links">
+                        <a href="mailto:20231031@student.itk.ac.id" class="social-icon" title="Email">
+                            <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/mail-dot-ru.svg" alt="email">
+                        </a>
+                        <a href="https://www.instagram.com/hey.isna/" class="social-icon" title="Instagram">
+                            <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="https://www.linkedin.com/in/isnaini-nur-rachmawati-7b815227b/" class="social-icon" title="LinkedIn">
+                            <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/linkedin.svg" alt="linkedin">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <img src="fadil.jpeg" alt="Foto Pembuat 3">
+                    <h3>Muhammad Fadil Afandi</h3>
+                    <h4>NIM: 20231041</h4>
+                    <p>Bertugas sebagai pembuat 'Ide Website'</p>
+                    <div class="social-links">
+                        <a href="mailto:20231041@student.itk.ac.id" class="social-icon" title="Email">
+                            <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/mail-dot-ru.svg" alt="email">
+                        </a>
+                        <a href="https://www.instagram.com/afandifdl/" class="social-icon" title="Instagram">
+                            <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="https://www.linkedin.com/in/fadil-afandi-a2276132a/" class="social-icon" title="LinkedIn">
+                            <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/linkedin.svg" alt="linkedin">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="member">
+                    <img src="richi.jpeg" alt="Foto Pembuat 4">
+                    <h3>Richi Zahi Ananda</h3>
+                    <h4>NIM: 20231067</h4>
+                    <p>Bertugas sebagai pembuat 'Fitur'</p>
+                    <div class="social-links">
+                        <a href="mailto:20231067@student.itk.ac.id" class="social-icon" title="Email">
+                            <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/mail-dot-ru.svg" alt="email">
+                        </a>
+                        <a href="https://www.instagram.com/rchi_001/" class="social-icon" title="Instagram">
+                            <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="https://id.linkedin.com/in/richi-zahi-12180b266" class="social-icon" title="LinkedIn">
+                            <img src="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/linkedin.svg" alt="linkedin">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        @include ('layouts.footer');
+    </body>
+</html>
+
