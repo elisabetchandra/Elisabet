@@ -1,0 +1,29 @@
+@extends('layouts.app')
+
+@section('content')
+    <div class="card">
+        <h2>Bisnis Digital</h2>
+        <p>Silahkan pilih menu untuk mengakses halaman web</p>
+        <div class="fakeimg" style="height:200px">Gambar</div>
+        <p>deskripsi gambar nya </p>
+    </div>
+@endsection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
